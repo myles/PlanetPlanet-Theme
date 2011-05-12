@@ -17,6 +17,8 @@
     </TMPL_IF>
     
     <meta name="generator" content="<TMPL_VAR generator ESCAPE="HTML">">
+    
+    <link rel="stylesheet" href="/media/css/style.css">
 </head>
 
 <body>
@@ -60,7 +62,7 @@
                     </div>
                     <aside>
                         <p class="date">
-                            <a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_IF author>by <TMPL_VAR author> at </TMPL_IF><TMPL_VAR date><TMPL_IF category> under <TMPL_VAR category></TMPL_IF></a>
+                            <a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_VAR date></a>
                         </p>
                     </aside>
                 </article>
