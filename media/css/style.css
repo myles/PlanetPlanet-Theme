@@ -91,6 +91,10 @@ body { width: 896px; padding: 72px 48px 84px; background: rgb(232,232,232); colo
 
 pre { background-color: #202020; color: #d0d0d0; overflow: auto; }
 
+a { color: #0096ff; text-decoration: none; }
+a:visited { color: #0096ff; }
+a:hover { color: #7981ff; }
+
 header#top { background-color: #FFF; margin: .5em 0; padding: .5em; }
 header#top h1 { text-align: center; }
 
@@ -99,13 +103,15 @@ div#main {  }
 div.daygroup { background-color: #FFF;  margin: .5em 0; padding: .5em; }
 div.daygroup h2 { text-align: center; }
 
-div.channelgroup { border-top: 1px solid #000; padding-top: .5em; margin-top: .5em; }
-div.channelgroup:first { border-top: none; }
+div.channelgroup { padding-top: .5em; margin-top: .5em; }
 div.channelgroup h3 { text-align: center; }
 
-div.entrygroup {  }
-div.entrygroup article header h1 { font-size: 22px; line-height: 30px; margin-bottom: .5em; display: inline; }
+div.entrygroup { margin-bottom: 1em; }
+
+div.entrygroup article header { margin-bottom: .5em; }
+div.entrygroup article header h1 { font-size: 22px; line-height: 30px; display: inline; }
 div.entrygroup article header p.date { display: inline; }
+
 div.entrygroup article img { display: block; float: none; }
 
 footer { text-align: center; }
