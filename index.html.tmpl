@@ -75,7 +75,7 @@
         </div>
         
         <footer>
-            <p><strong>Subscriptions</strong>:<br><TMPL_LOOP Channels><a <TMPL_IF link>href="<TMPL_VAR link ESCAPE="HTML">" </TMPL_IF><TMPL_IF message>class="message" title="<TMPL_VAR message ESCAPE="HTML">"</TMPL_IF><TMPL_UNLESS message>title="<TMPL_VAR title_plain ESCAPE="HTML">"</TMPL_UNLESS>><TMPL_VAR name></a></TMPL_LOOP></p>
+            <p><strong>Subscriptions</strong>:<br><TMPL_LOOP Channels> <a <TMPL_IF link>href="<TMPL_VAR link ESCAPE="HTML">" </TMPL_IF><TMPL_IF message>class="message" title="<TMPL_VAR message ESCAPE="HTML">"</TMPL_IF><TMPL_UNLESS message>title="<TMPL_VAR title_plain ESCAPE="HTML">"</TMPL_UNLESS>><TMPL_VAR name></a> </TMPL_LOOP></p>
             <p><strong>Last updated</strong>: <TMPL_VAR date> <em>All times are UTC.</em></p>
             <p><strong>Powered by</strong>: <a href="http://www.planetplanet.org/">Planet</a></p>
         </footer>
